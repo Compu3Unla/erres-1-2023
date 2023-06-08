@@ -2,3 +2,87 @@
 /* CSS Document */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+
+* {
+	font-family: "Nunito";
+	color: #323232;
+}
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 0px;
+	gap: 22px;
+
+	width: 1628px;
+	height: 75px;
+
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+footer { 
+	position: absolute;
+	width: 1920px;
+	height: 155px;
+	left: 0px;
+	top: 6256px;
+}
+
+footer p { 
+	color: #FFFFFF;
+	position: absolute;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	text-align: center;
+}
+
+.Detalles-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 40px 66px;
+	gap: 10px;
+
+	position: absolute;
+	width: 1920px;
+	height: 80px;
+	left: 0px;
+	top: 0px;
+	
+	/*No logramos trabajar bien el fondo del navegador con porcentajes y pixeles*/
+
+	background: rgba(234, 236, 232, 0.85);
+} 
+.Navegador {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 33px 0px 0px;
+	gap: 116px;
+
+	width: 1603px;
+	height: 65px;
+	
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+}
+
+.Rectangulo-footer {
+	color: #FFFFFF;
+	background: #4E4D51;
+	position: absolute;
+	width: 1920px;
+	height: 55px;
+	left: 0px;
+	top: 155px;
+}
