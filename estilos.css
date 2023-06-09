@@ -26,19 +26,35 @@ ul {
 
 footer { 
 	position: absolute;
-	width: 1920px;
-	height: 155px;
+	width: 100%;
+	height: 125px;
 	left: 0px;
 	top: 6256px;
+
+	right: 0%;
+	bottom: 0%;
+
+	background: #D9D9D9;
 }
 
 footer p { 
 	color: #FFFFFF;
-	position: absolute;
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 20px;
 	text-align: center;
+}
+
+address {
+	position: absolute;
+	width: 190px;
+	height: 66.11px;
+	left: 1290px;
+	top: 36px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .Detalles-header {
@@ -71,12 +87,16 @@ footer p {
 	flex-grow: 0;
 }
 
-.Rectangulo-footer {
+.rectanguloinferior_footer {
 	color: #FFFFFF;
 	background: #4E4D51;
 	position: absolute;
-	width: 1920px; /*width: 100%;*/
+	width: 100%;
 	height: 55px;
-	left: 0px;
-	top: 155px;
+	top: 124px;
+}
+
+.contenido_rectangulo-superior-footer{
+	display: flex;
+		
 }
