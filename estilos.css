@@ -81,7 +81,7 @@ footer p {
 	color: #FFFFFF;
 	background: #4E4D51;
 	position: absolute;
-	width: 1920px;
+	width: 1920px; /*width: 100%;*/
 	height: 55px;
 	left: 0px;
 	top: 155px;
