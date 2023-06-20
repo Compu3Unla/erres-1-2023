@@ -111,3 +111,8 @@ address {
 	background-size: 100% auto; 
 	background-color: #FFFFFF;
 }
+
+.img-fondo-nosotros{
+	background-image: url("img/Desktop/Nosotros/nosotros.jpg");
+	background-repeat: no-repeat;
+}
