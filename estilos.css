@@ -46,10 +46,7 @@ footer p {
 	text-align: center;
 }
 
-*/
-
 address {
-	position: absolute;
 	width: 190px;
 	height: 66.11px;
 	left: 1290px;
@@ -58,6 +55,27 @@ address {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+}*/
+
+h1 {
+	font-weight: 700;
+	font-size: 55px;
+	color: #FFFFFF;
+	text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.36);
+	padding-bottom: 50px;
+}
+h2 {
+	font-size: 40px;
+	line-height: 45px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 20px;
 }
 
 .Detalles-header {
@@ -103,41 +121,75 @@ address {
 	display: flex;
 		
 }
+/*html index*/
+
+
+/* html contacto*/ 
 
 .banner-contacto {
+	background-position: bottom center;
+	background-blend-mode: multiply;
+	background-image: url("img/desktop/contacto/contacto-1.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	margin-top:67px;
 	width: 100%;
-	height: 321.11px;
-	background-image: url("img/desktop/contacto/contacto-1.jpg");
-	brackground-repeat: no-repeat;
+	height: 300px;
 	background-size: 100% auto; 
+	brackground-repeat: no-repeat;
 	background-color: #FFFFFF;
 }
-
-h1 {
-	font-weight: 700;
-	font-size: 55px;
-	color: #FFFFFF;
-	text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.36);
-	padding-bottom: 50px;
+.interior-contacto {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
 }
 
-h2 {
-	font-size: 40px;
-	line-height: 45px;
+.contenedor-texto-formulario {
+	margin-top: 3%;
+}
+.color-fondo-contacto {
+	background-color: #F9F9F9;
 }
 
-h5 {
-	font-size: 20px;
+.dudas-sugerencias {
+	padding: 42px 0px;
+	margin: 0% 10%;
+	margin-right: 2%;
+	width: 38%;
 }
 
-p {
-	font-size: 15px;
-	line-height: 20px;
+.texto-contacto {
+	margin: 0% 10%;
+	width: 38%;
+	padding-bottom: 2%;
+	font-size: 13px;
+}
+.informacion-de-contacto {
+	margin: 0% 5%;
+	width: 38%;;
+	top: 36px;
 }
 
-.img-fondo-nosotros{
+.texto-informacion-contacto{
+	
+}
+.iconos-redes-sociales {
+	
+	margin: 0% 10%;
+}
+
+.icono-texto-address {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+
+/* html nosotros*/ 
+
+.banner-nosotros {
 	background-position: bottom center;
-    background-blend-mode: multiply;
+	background-blend-mode: multiply;
 	background-image: url("img/Desktop/Nosotros/nosotros-2.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	margin-top: 67px;
 	width: 100%;
@@ -156,9 +208,9 @@ p {
 }*/
 
 .interior-nosotros {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding-top: 100px;
 }
 
@@ -170,7 +222,7 @@ p {
 
 .linea-separadora-nosotros {
 	content: "";
-    height: 1px;
+	height: 1px;
 	color: #67BC8C;
 	border-top-style: solid;
 	margin: 40px 25%;
@@ -226,7 +278,7 @@ p {
 
 .contenedor-version-tres-nosotros {
 	display: flex;
-  	flex-wrap: wrap;
+	flex-wrap: wrap;
 	align-content: space-between;
 	justify-content: center;
 }
@@ -247,3 +299,4 @@ p {
 	padding-left: 3%;
 	margin: 3% 0%;
 }
+
