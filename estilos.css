@@ -123,6 +123,51 @@ p {
 }
 /*html index*/
 
+.banner-home{
+	background-position: center;
+	background-blend-mode: multiply;
+	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	margin-top: 67px;
+	width: 100%;
+	height: 650px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+.proposito-home {
+	background-color: #F9F9F9;
+	width: 1920px;
+	height: 852px;
+	display: flex;
+	flex-direction: column;
+}
+.p1 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.p2 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.irnosotros-home {
+	background-color: #67BC8C;
+	width: 243px;
+	height: 49px;
+	color: #FFF;
+	font-size: 22px;
+	font-family: Nunito;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 800px;
+}
 
 /* html contacto*/ 
 
@@ -250,7 +295,6 @@ p {
 	width: 38%;
 }
 
-
 .texto-version-dos-nosotros {
 	margin-right: 2%;
 	width: 38%;
@@ -304,53 +348,6 @@ p {
 	margin: 3% 0%;
 }
 
-<<<<<<< HEAD
-.banner-home{
-	background-position: center;
-	background-blend-mode: multiply;
-	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
-	margin-top: 67px;
-	width: 100%;
-	height: 650px;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-color: #ffffff;
-}
-.proposito-home {
-	background-color: #F9F9F9;
-	width: 1920px;
-	height: 852px;
-	display: flex;
-	flex-direction: column;
-}
-.p1 {
-	display: flex;
-	width: 671px;
-	height: 353px;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin-left: 800px;
-}
-.p2 {
-	display: flex;
-	width: 671px;
-	height: 353px;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin-left: 800px;
-}
-.irnosotros-home {
-	background-color: #67BC8C;
-	width: 243px;
-	height: 49px;
-	color: #FFF;
-	font-size: 22px;
-	font-family: Nunito;
-	font-weight: 600;
-	text-align: center;
-	margin-left: 800px;
-}
-=======
 .contenedor-version-cuatro-nosotros {
 	background-color: #F9F9F9;
 	text-align: center;
@@ -372,4 +369,3 @@ p {
 	text-align: center;
 	margin: 2% 18%;
 }
->>>>>>> origin/juliana
