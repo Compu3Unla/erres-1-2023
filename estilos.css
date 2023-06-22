@@ -143,7 +143,11 @@ p {
 	align-items: center;
 	padding-top: 100px;
 }
-.color-fondo{
+
+.contenedor-texto-formulario {
+	margin-top: 3%;
+}
+.color-fondo-contacto {
 	background-color: #F9F9F9;
 }
 
@@ -156,24 +160,31 @@ p {
 
 .texto-contacto {
 	margin: 0% 10%;
-	margin-right: 2%;
 	width: 38%;
 	padding-bottom: 2%;
 	font-size: 13px;
 }
 .informacion-de-contacto {
 	margin: 0% 5%;
-	padding: 5%;
-	margin-right: 2%;
-	width: 38%;
-	padding-bottom: 2%;
+	width: 38%;;
 	top: 36px;
 }
 
+.texto-informacion-contacto{
+	
+}
 .iconos-redes-sociales {
 	
 	margin: 0% 10%;
 }
+
+.icono-texto-address {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+
 /* html nosotros*/ 
 
 .banner-nosotros {
