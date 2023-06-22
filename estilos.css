@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 
 * {
 	margin: 0px;
@@ -115,7 +115,7 @@ address {
 
 h1 {
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 55px;
 	color: #FFFFFF;
 	text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.36);
 	padding-bottom: 50px;
@@ -123,6 +123,16 @@ h1 {
 
 h2 {
 	font-size: 40px;
+	line-height: 45px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 20px;
 }
 
 .img-fondo-nosotros{
@@ -154,37 +164,86 @@ h2 {
 
 .texto-nosotros {
 	text-align: center;
-	font-size: 18px;
-	line-height: 33px;
 	padding: 42px 0px;
-	margin: 0px 192px;
+	margin: 0% 20%;
 }
 
-.linea-separadora {
+.linea-separadora-nosotros {
 	content: "";
     height: 1px;
 	color: #67BC8C;
 	border-top-style: solid;
-	margin: 50px 280px;
+	margin: 40px 25%;
 }
 
-.color-que-buscamos {
+.color-contendor-version-uno-nosotros {
 	background-color: #F9F9F9;
 	padding: 50px 0px;
 	box-sizing: border-box;
 }
 
-.que-buscamos-contenedor{
-	margin: 0px 100px;
+.contenedor-version-uno-nosotros {
+	margin: 0px 0px;
 	padding: 30px 0px;
 	display: flex;
 	align-items: center;
+	justify-content: center;
 }
 
-.imgbuscamos {
-	margin-right: 40px;
+.img-dobles-nosotros {
+	margin-right: 2%;
 }
 
-.textobusquemos {
-	line-height: 25px;
+.texto-version-uno-nosotros {
+	width: 38%;
+}
+
+
+.texto-version-dos-nosotros {
+	margin-right: 2%;
+	width: 38%;
+}
+
+.contenedor-version-dos-nosotros {
+	display: flex;
+	justify-content: center;
+}
+
+.color-contendor-version-dos-nosotros {
+	background: #E8EAE5;
+	width: 75%;
+	height: 400px;
+	display: flex;
+	align-items: flex-start;
+	padding: 2%;
+	margin-bottom: 50px;
+}
+
+.texto-version-tres-nosotros {
+	margin-left: 3%;
+	width: 100%;
+}
+
+.contenedor-version-tres-nosotros {
+	display: flex;
+  	flex-wrap: wrap;
+	align-content: space-between;
+	justify-content: center;
+}
+
+.contenedor-perfiles-nosotros {
+	width: 37%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 3%;
+}
+
+.texto-perfiles-nosotros {
+	font-size: 13px;
+	font-style: italic;
+	text-align: center;
+	border-left: solid 4px #BCBCB9;
+	padding-left: 3%;
+	margin: 3% 0%;
 }
