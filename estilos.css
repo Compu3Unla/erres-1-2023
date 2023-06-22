@@ -291,6 +291,10 @@ p {
 	margin: 3%;
 }
 
+.h5-nosotros {
+	margin: 12px 0px 6px;
+}
+
 .texto-perfiles-nosotros {
 	font-size: 13px;
 	font-style: italic;
@@ -300,3 +304,24 @@ p {
 	margin: 3% 0%;
 }
 
+.contenedor-version-cuatro-nosotros {
+	background-color: #F9F9F9;
+	text-align: center;
+	align-items: center;
+	margin-top: 6%;
+	padding-top: 6%;
+}
+
+.por-que-erres-nosotros {
+	background-image: url("img/Desktop/Nosotros/porque-Erres.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 160vh;
+	height: 38vh;
+	margin-top: 2%;
+}
+
+.texto-version-cuatro-nosotros {
+	text-align: center;
+	margin: 2% 18%;
+}
