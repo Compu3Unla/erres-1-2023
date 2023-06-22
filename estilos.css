@@ -137,6 +137,51 @@ textarea {
 }
 /*html index*/
 
+.banner-home{
+	background-position: center;
+	background-blend-mode: multiply;
+	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	margin-top: 67px;
+	width: 100%;
+	height: 650px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+.proposito-home {
+	background-color: #F9F9F9;
+	width: 1920px;
+	height: 852px;
+	display: flex;
+	flex-direction: column;
+}
+.p1 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.p2 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.irnosotros-home {
+	background-color: #67BC8C;
+	width: 243px;
+	height: 49px;
+	color: #FFF;
+	font-size: 22px;
+	font-family: Nunito;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 800px;
+}
 
 /* html contacto*/ 
 
@@ -292,7 +337,6 @@ textarea {
 	width: 38%;
 }
 
-
 .texto-version-dos-nosotros {
 	margin-right: 2%;
 	width: 38%;
@@ -333,6 +377,10 @@ textarea {
 	margin: 3%;
 }
 
+.h5-nosotros {
+	margin: 12px 0px 6px;
+}
+
 .texto-perfiles-nosotros {
 	font-size: 13px;
 	font-style: italic;
@@ -342,3 +390,24 @@ textarea {
 	margin: 3% 0%;
 }
 
+.contenedor-version-cuatro-nosotros {
+	background-color: #F9F9F9;
+	text-align: center;
+	align-items: center;
+	margin-top: 6%;
+	padding-top: 6%;
+}
+
+.por-que-erres-nosotros {
+	background-image: url("img/Desktop/Nosotros/porque-Erres.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 160vh;
+	height: 38vh;
+	margin-top: 2%;
+}
+
+.texto-version-cuatro-nosotros {
+	text-align: center;
+	margin: 2% 18%;
+}
