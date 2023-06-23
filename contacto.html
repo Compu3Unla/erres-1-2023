@@ -2,20 +2,22 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Documento sin título</title>
+<title>Contacto | Erres</title>
 <link href="estilos.css" rel="stylesheet" type="text/css">
 </head>
 
 <body class="color-fondo-contacto">
 	<header class="Detalles-header"> 
 		<nav class="Navegador">
-			<img src= "img/svg/erres.svg" width="116px" height="30px" alt="Logo erres"/>
+			<a href="index.html">
+				<img src= "img/svg/erres.svg" width="116px" height="30px" alt="Logo erres"/>
+			</a>
 			<ul>
 				<li>
-					<a>Home</a>
+					<a href="index.html" class="botones-linkeados">Home</a>
 				</li>
 				<li>
-					<a>Nosotros</a>
+					<a href="nosotros.html" class="botones-linkeados">Nosotros</a>
 				</li>
 				<li>
 					<a>Blog</a>
@@ -27,7 +29,7 @@
 					<a>Tienda</a>
 				</li>
 				<li>
-					<a>Contacto</a>
+					<a href="contacto.html" class="botones-linkeados">Contacto</a>
 				</li>
 				<li>
 					<a>Mi cuenta</a>
@@ -46,12 +48,12 @@
 		<div>
 			<div>
 				<section class="texto-contacto">
-					<h2>Escribenos tus dudas o sugerencias</h2>
+					<h2>Escribinos tus dudas o sugerencias</h2>
 					<br>
 					<h4>Queremos conocerte y saber que pensas</h4>
-					<p>Usemos este espacio para mantenernos en contacto vía correco electrónico o a traves de nuestras redes sociales.</p>
+					<p>Usemos este espacio para mantenernos en contacto vía correco electrónico o a través de nuestras redes sociales.</p>
 					<br>
-					<p>Nos gustaría responder las consultas que puedas llegar a tener respecto a ¿Cómo ayudar a cuidar el medio ambiente?. ¿Cómo sumarte y participar de ciertos eventos?, ¿Cómo formar parte de organizaciones y acciones voluntarias?, o simplemente cualquier tema referido a cómo podemos cuidar nuestro planeta. </p>
+					<p>Nos gustaría responder las consultas que puedas llegar a tener respecto a ¿Cómo ayudar a cuidar el medio ambiente?, ¿Cómo sumarte y participar de ciertos eventos?, ¿Cómo formar parte de organizaciones y acciones voluntarias?, o simplemente cualquier tema referido a cómo podemos cuidar nuestro planeta. </p>
 					<br>
 					<p>También nos gustaría recibir sugerencias, noticias, ideas útiles para incluir en nuestro sitio. ¡Todo será bienvenido!</p>
 				</section>
@@ -59,23 +61,64 @@
 			<section class="informacion-de-contacto">
 				<address>
 						<div class="icono-texto-address">
-							<img src="img/svg/iconos/ubicacion_contacto.svg" alt="ubicación"/> 
-							<p class="texto-contacto">Ciudad Autónoma de Buenos Aires, Argentina</p>
+							<img src="img/svg/iconos/ubicacion_contacto.svg" width="20px" height="30px" alt="ubicación"/> 
+							<p class="texto-address">Ciudad Autónoma de Buenos Aires, Argentina</p>
 						</div>
 						<div class="icono-texto-address">
-							<img src="img/svg/iconos/correo_contacto.svg" alt="correo"/>
-							<p class="texto-contacto">info@erres.bio</p>
+							<img src="img/svg/iconos/correo_contacto.svg" widht="20px" height="15px" alt="correo"/>
+							<p class="texto-address">info@erres.bio</p>
 						</div>
-					<div>
-						<img src="img/svg/iconos/instagram_a_.svg" alt=""/>
-						<img src="img/svg/iconos/twitter_a_.svg" alt=""/> 
-						<img src="img/svg/iconos/facebook_a_.svg" alt=""/> 
+						<br>
+						<div>
+						<a href="#" title="Ir a instagram"> 
+							<img src="img/svg/iconos/instagram_a_.svg" alt="Instagram"/>
+						</a>
+						<a href="#" title="Ir a twitter">
+							<img src="img/svg/iconos/twitter_a_.svg" alt="Twitter"/>
+						</a>
+						<a href="#" title="Ir a facebook">
+							<img src="img/svg/iconos/facebook_a_.svg" alt="Facebook"/>
+						</a>
 						</div>
 				</address>
 			</section>
 		</div>
-		<div>
+		<div class="detalles-formulario">
+			<form method="post" action="" target="_blank" enctype="text/plain">
+				<input type="text" name="Nombre" id="Nombre" maxlength="30" placeholder="Nombre" required>
+				<input type="email" name="Correo electrónico" id="Correo-electronico" maxlength="70" placeholder="Correo electrónico" required>
+				<input class="asunto-formulario" type="text" name="Asunto" id="Asunto" maxlength="100" placeholder="Asunto" required>
+				<textarea>Dejanos tu mensaje</textarea>
+				<input class="boton-enviar" type="submit">
+			</form>
 		</div>
 	</div>
 </body>
+	
+	<footer>
+		<div class="rectangulo-superior-footer">
+			<div>
+				<div class="contenedor-svg-iconos">
+				<img src="img/svg/erres-economíacircular.svg" widht="130px" height="63px" alt="Erres economía circular"/>
+					<div class="nuestras-redes">
+						<p>Nuestras redes sociales</p>
+						<div class="iconos-redes">
+							<a href="#" title="Ir a instagram"> 
+								<img src="img/svg/iconos/instagram_a_.svg" alt="Instagram"/>
+							</a>
+							<a href="#" title="Ir a twitter">
+								<img src="img/svg/iconos/twitter_a_.svg" alt="Twitter"/>
+							</a>
+							<a href="#" title="Ir a facebook">
+								<img src="img/svg/iconos/facebook_a_.svg" alt="Facebook"/>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="rectangulo-inferior-footer">
+				<p style="color: #FFFFFF">Erres Economía Circular – 2021</p>
+			</div>
+		</div>
+	</footer>
 </html>

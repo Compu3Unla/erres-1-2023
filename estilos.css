@@ -25,38 +25,6 @@ ul {
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-/*footer { 
-	position: absolute;
-	width: 100%;
-	height: 125px;
-	left: 0px;
-	top: 6256px;
-
-	right: 0%;
-	bottom: 0%;
-
-	background: #D9D9D9;
-}
-
-footer p { 
-	color: #FFFFFF;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 20px;
-	text-align: center;
-}
-
-address {
-	width: 190px;
-	height: 66.11px;
-	left: 1290px;
-	top: 36px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}*/
-
 h1 {
 	font-weight: 700;
 	font-size: 55px;
@@ -78,6 +46,20 @@ p {
 	line-height: 20px;
 }
 
+input {
+	background-color: #FFFFFF;
+	width: 44%;
+	height: 44px;
+	border-style: solid;
+	margin-bottom: 2%;
+	margin-right: 4%;
+}
+
+textarea {
+	width: 94%;
+	height: 301px;
+	flex-shrink: 0;
+}
 .Detalles-header {
 	display: flex;
 	flex-direction: row;
@@ -107,22 +89,90 @@ p {
 	order: 0;
 	flex-grow: 0;
 }
-
-.rectanguloinferior_footer {
-	color: #FFFFFF;
-	background: #4E4D51;
-	position: absolute;
-	width: 100%;
-	height: 55px;
-	top: 124px;
+.botones-linkeados {
+	text-decoration: none;
 }
-
-.contenido_rectangulo-superior-footer{
+.rectangulo-superior-footer{
+	background-color: #D9D9D9;
+	height: 155px;
+	margin-top: 10%;
 	display: flex;
-		
+	flex-direction: column;
+	justify-content: flex-end;
 }
+.rectangulo-inferior-footer {
+	background-color: #4E4D51;
+	height: 55px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.nuestras-redes {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.iconos-redes {
+	display:flex;
+	
+}
+
+.contenedor-svg-iconos {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-bottom: 1%;
+}
+
 /*html index*/
 
+.banner-home {
+	background-position: center;
+	background-blend-mode: multiply;
+	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	margin-top: 67px;
+	width: 100%;
+	height: 650px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: #ffffff;
+}
+.proposito-home {
+	background-color: #F9F9F9;
+	width: 1920px;
+	height: 852px;
+	display: flex;
+	flex-direction: column;
+}
+.p1 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.p2 {
+	display: flex;
+	width: 671px;
+	height: 353px;
+	flex-direction: column;
+	flex-shrink: 0;
+	margin-left: 800px;
+}
+.irnosotros-home {
+	background-color: #67BC8C;
+	width: 243px;
+	height: 49px;
+	color: #FFF;
+	font-size: 22px;
+	font-family: Nunito;
+	font-weight: 600;
+	text-align: center;
+	margin-left: 800px;
+}
 
 /* html contacto*/ 
 
@@ -146,6 +196,9 @@ p {
 
 .contenedor-texto-formulario {
 	margin-top: 3%;
+	display: flex;
+	flex-direction: row;
+	align-items: baseline;
 }
 .color-fondo-contacto {
 	background-color: #F9F9F9;
@@ -159,53 +212,68 @@ p {
 }
 
 .texto-contacto {
-	margin: 0% 10%;
-	width: 38%;
+	margin: 0% 19%;
+	width: 66%;
 	padding-bottom: 2%;
-	font-size: 13px;
+	font-size: 16px;
 }
 .informacion-de-contacto {
-	margin: 0% 5%;
+	margin: 0% 19%;
 	width: 38%;;
 	top: 36px;
 }
 
-.texto-informacion-contacto{
-	
-}
-.iconos-redes-sociales {
-	
-	margin: 0% 10%;
+.texto-address{
+	display: flex;
+	font-size: 13px;
+	font-style: normal;
+	margin-left: 2%;
 }
 
 .icono-texto-address {
 	display: flex;
 	flex-direction: row;
-	align-items: flex-start;
+	align-items: center;
 }
 
+.detalles-formulario{
+	background-color: #FFFFFF;
+	padding: 30px;
+	margin-right: 10%;
+	width: 34%;
+	height: 490px;
+	flex-shrink: 0;
+}
 
+.asunto-formulario {
+	width: 94%;
+}
+
+.mensaje-formulario {
+	width: 94%;
+	height: 244px;
+}
+
+.boton-enviar {
+	width: 151px;
+	height: 48px;
+	margin-top: 3%;
+	background-color: #66BC8D;
+	font-size: 19px;
+	border: none;
+	color: #fff;
+}
 /* html nosotros*/ 
 
 .banner-nosotros {
 	background-position: bottom center;
 	background-blend-mode: multiply;
 	background-image: url("img/Desktop/Nosotros/nosotros-2.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
-	margin-top: 67px;
-	width: 100%;
+	margin-top: 67px;;
 	height: 300px;
-	background-size: 100% auto;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-/*.img-fondo-nosotros{
-	background-image: url("img/Desktop/Nosotros/nosotros.jpg");
-	background-repeat: no-repeat;
-	background-size: 100% 408px;
-	width: 100%;
-	height: 408px;
-	margin-top: 80px;
-}*/
 
 .interior-nosotros {
 	display: flex;
@@ -250,7 +318,6 @@ p {
 	width: 38%;
 }
 
-
 .texto-version-dos-nosotros {
 	margin-right: 2%;
 	width: 38%;
@@ -291,6 +358,10 @@ p {
 	margin: 3%;
 }
 
+.h5-nosotros {
+	margin: 12px 0px 6px;
+}
+
 .texto-perfiles-nosotros {
 	font-size: 13px;
 	font-style: italic;
@@ -300,48 +371,52 @@ p {
 	margin: 3% 0%;
 }
 
-.banner-home{
-	background-position: center;
-	background-blend-mode: multiply;
-	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
-	margin-top: 67px;
-	width: 100%;
-	height: 650px;
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-color: #ffffff;
-}
-.proposito-home {
+.contenedor-version-cuatro-nosotros {
 	background-color: #F9F9F9;
-	width: 1920px;
-	height: 852px;
-	display: flex;
-	flex-direction: column;
-}
-.p1 {
-	display: flex;
-	width: 671px;
-	height: 353px;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin-left: 800px;
-}
-.p2 {
-	display: flex;
-	width: 671px;
-	height: 353px;
-	flex-direction: column;
-	flex-shrink: 0;
-	margin-left: 800px;
-}
-.irnosotros-home {
-	background-color: #67BC8C;
-	width: 243px;
-	height: 49px;
-	color: #FFF;
-	font-size: 22px;
-	font-family: Nunito;
-	font-weight: 600;
 	text-align: center;
-	margin-left: 800px;
+	align-items: center;
+	margin-top: 6%;
+	padding-top: 6%;
+}
+
+.por-que-erres-nosotros {
+	background-image: url("img/Desktop/Nosotros/porque-Erres.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 160vh;
+	height: 38vh;
+	margin-top: 2%;
+}
+
+.texto-version-cuatro-nosotros {
+	text-align: center;
+	margin: 2% 18%;
+}
+
+@media screen and (max-width: 600px) {
+	h2 {
+		text-align: center;
+	}
+	
+	.img-dobles-nosotros {
+		padding-top: inherit;
+	}
+	.texto-nosotros {
+		
+		width: 83%;
+		margin: 0% 8%;	
+	}
+	.contenedor-version-uno-nosotros {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.texto-version-uno-nosotros {
+		width: 90%;
+	}
+	
+	.contenedor-version-dos-nosotros {
+		display: flex;
+		flex-direction: column-reverse;
+	}
 }
