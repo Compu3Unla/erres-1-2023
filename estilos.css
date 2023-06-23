@@ -391,3 +391,31 @@ textarea {
 	text-align: center;
 	margin: 2% 18%;
 }
+
+@media screen and (max-width: 600px) {
+	h2 {
+		text-align: center;
+	}
+	
+	.img-dobles-nosotros {
+		padding-top: inherit;
+	}
+	.texto-nosotros {
+		
+		width: 83%;
+		margin: 0% 8%;	
+	}
+	.contenedor-version-uno-nosotros {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.texto-version-uno-nosotros {
+		width: 90%;
+	}
+	
+	.contenedor-version-dos-nosotros {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
