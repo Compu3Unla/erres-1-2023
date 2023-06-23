@@ -89,7 +89,9 @@ textarea {
 	order: 0;
 	flex-grow: 0;
 }
-
+.botones-linkeados {
+	text-decoration: none;
+}
 .rectangulo-superior-footer{
 	background-color: #D9D9D9;
 	height: 155px;
