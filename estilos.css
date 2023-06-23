@@ -181,11 +181,10 @@ textarea {
 	background-blend-mode: multiply;
 	background-image: url("img/desktop/contacto/contacto-1.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	margin-top:67px;
-	width: 100%;
-	height: 300px;
-	background-size: 100% auto; 
+	height: 300px; 
 	brackground-repeat: no-repeat;
 	background-color: #FFFFFF;
+	background-size: cover;
 }
 .interior-contacto {
 	display: flex;
