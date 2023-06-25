@@ -77,7 +77,7 @@ textarea {
 	
 	border: 1px solid;
 }
-.Detalles-header {
+.detalles-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -92,7 +92,7 @@ textarea {
 	background: rgba(234, 236, 232, 0.85);
 
 } 
-.Navegador {
+.navegador-botonera {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
