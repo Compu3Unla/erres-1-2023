@@ -8,6 +8,8 @@
 	font-family: "Nunito";
 	color: #323232;
 }
+
+
 ul {
 	list-style: none;
 	display: flex;
@@ -515,10 +517,16 @@ textarea {
 		width: 100%;
 	}
 	
-	.rectagulo-superior-footer {
-		height: 200px;
+	.rectangulo-superior-footer {
+		height: 195px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
 	}
 	
+	.economia-circular {
+		margin-bottom: 3%;
+	}
 	.contenedor-svg-iconos {
 		display: flex;
 		flex-direction: column;
