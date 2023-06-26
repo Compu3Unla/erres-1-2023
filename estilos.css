@@ -8,6 +8,8 @@
 	font-family: "Nunito";
 	color: #323232;
 }
+
+
 ul {
 	list-style: none;
 	display: flex;
@@ -23,6 +25,15 @@ ul {
 	flex-grow: 0;
 
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+a { 
+	color: #323232;
+	text-decoration-line: none;
+}
+
+a:hover { 
+	color: #838286;
 }
 
 h1 {
@@ -48,19 +59,25 @@ p {
 
 input {
 	background-color: #FFFFFF;
-	width: 44%;
+	width: 42%;
 	height: 44px;
-	border-style: solid;
 	margin-bottom: 2%;
 	margin-right: 4%;
+	color: #636265;
+	padding-left: 2%;
+	font-size: 16px;
+	border: 1px solid;
 }
 
 textarea {
-	width: 94%;
-	height: 301px;
-	flex-shrink: 0;
+	width: 92%;
+	height: 240px;
+	padding-left: 2%;
+	font-size: 16px;
+	
+	border: 1px solid;
 }
-.Detalles-header {
+.detalles-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -75,7 +92,7 @@ textarea {
 	background: rgba(234, 236, 232, 0.85);
 
 } 
-.Navegador {
+.navegador-botonera {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -92,6 +109,10 @@ textarea {
 .botones-linkeados {
 	text-decoration: none;
 }
+
+.animacion-flecha {
+	scroll-behavior: smooth;
+}
 .rectangulo-superior-footer{
 	background-color: #D9D9D9;
 	height: 155px;
@@ -106,9 +127,13 @@ textarea {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	font-size: 13px;
+	color: #ffffff;
 }
 
 .nuestras-redes {
+	font-size: 13px;
+	margin-bottom: revert;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -124,6 +149,7 @@ textarea {
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin-bottom: 1%;
+	align-items: center;
 }
 
 /*html index*/
@@ -264,11 +290,10 @@ textarea {
 	background-blend-mode: multiply;
 	background-image: url("img/desktop/contacto/contacto-1.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	margin-top:67px;
-	width: 100%;
-	height: 300px;
-	background-size: 100% auto; 
+	height: 300px; 
 	brackground-repeat: no-repeat;
 	background-color: #FFFFFF;
+	background-size: cover;
 }
 .interior-contacto {
 	display: flex;
@@ -302,7 +327,7 @@ textarea {
 }
 .informacion-de-contacto {
 	margin: 0% 19%;
-	width: 38%;;
+	width: 38%;
 	top: 36px;
 }
 
@@ -324,12 +349,14 @@ textarea {
 	padding: 30px;
 	margin-right: 10%;
 	width: 34%;
-	height: 490px;
+	height: 430px;
 	flex-shrink: 0;
 }
 
 .asunto-formulario {
-	width: 94%;
+	width: 92%;
+	border: 1px solid;
+	color: #636265;
 }
 
 .mensaje-formulario {
@@ -346,13 +373,18 @@ textarea {
 	border: none;
 	color: #fff;
 }
+
+.boton-enviar:hover {
+	background-color: #383838;
+}
+
 /* html nosotros*/ 
 
 .banner-nosotros {
 	background-position: bottom center;
 	background-blend-mode: multiply;
 	background-image: url("img/Desktop/Nosotros/nosotros-2.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
-	margin-top: 67px;;
+	margin-top: 67px;
 	height: 300px;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -386,6 +418,14 @@ textarea {
 }
 
 .contenedor-version-uno-nosotros {
+	margin: 0px 0px;
+	padding: 30px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contenedor-version-cinco-nosotros {
 	margin: 0px 0px;
 	padding: 30px 0px;
 	display: flex;
@@ -485,7 +525,6 @@ textarea {
 		padding-top: inherit;
 	}
 	.texto-nosotros {
-		
 		width: 83%;
 		margin: 0% 8%;	
 	}
@@ -498,8 +537,81 @@ textarea {
 		width: 90%;
 	}
 	
-	.contenedor-version-dos-nosotros {
+	.img-dobles-nosotros {
+		width: 100%;
+		height: 100%;
+		margin-right: 0%;
+	}
+	
+	.color-contendor-version-dos-nosotros {
 		display: flex;
 		flex-direction: column-reverse;
+		height: 970px;
+		width: 80%;
+		align-items: center;
+		padding: 4%;
+	}
+	
+	.color-contendor-version-dos-nosotros img {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.contenedor-version-cinco-nosotros {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.texto-version-dos-nosotros {
+		width: 90%;
+		margin-right: 0%;
+	}
+	
+	.texto-version-tres-nosotros {
+		width: 100%;
+		margin: 0% 0% 4%;
+	}
+	
+	.contenedor-version-tres-nosotros {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-wrap: nowrap;
+	}
+	
+	.contenedor-perfiles-nosotros {
+		width: 80%;
+	}
+	
+	.texto-perfiles-nosotros {
+		font-size: 1em;
+	}
+	
+	.por-que-erres-nosotros {
+		background-size: cover;
+	}
+	
+	.texto-version-cuatro-nosotros {
+		margin: 2% 10%;
+	}
+	
+	.erres-palabras-nosotros {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.rectangulo-superior-footer {
+		height: 195px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+	}
+	
+	.economia-circular {
+		margin-bottom: 3%;
+	}
+	.contenedor-svg-iconos {
+		display: flex;
+		flex-direction: column;
 	}
 }
