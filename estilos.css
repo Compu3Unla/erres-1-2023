@@ -71,7 +71,7 @@ input {
 }
 
 textarea {
-	width: 92%;
+	width: 91.4%;
 	height: 240px;
 	padding-left: 2%;
 	font-size: 16px;
@@ -152,18 +152,22 @@ textarea {
 	align-items: center;
 }
 
+.color-contendor-version-uno {
+	background-color: #F9F9F9;
+	padding: 50px 0px;
+	box-sizing: border-box;
+}
 /*html index*/
 
 .banner-home {
 	background-position: center;
 	background-blend-mode: multiply;
-	background-image: url("img/Desktop/Home/contenedores_colores-reciclar-basura-residuos.jpg"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
-	margin-top: 67px;
-	width: 50%;
-	height: 650px;
-	background-size: 100% auto;
+	background-image: url("img/desktop/home/como-reciclar-casa-sostenibilidad-reciclaje-1bbva.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	margin-top:67px;
+	height: 724px; 
 	background-repeat: no-repeat;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
+	background-size: cover;
 }
 
 .arriba {
@@ -202,7 +206,7 @@ textarea {
 }
 
 .iconos {
-	margin: 25% 13% 0% 13%;
+	margin: 20% 13% 0% 13%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -211,9 +215,11 @@ textarea {
 .iconos h5 {
 	font-size: 17px;
 }
-.iconos p {
-	margin: 3% 5% 30% 5%;
+
+.sub-iconos {
+	padding: 0% 5% 5% 4%;
 }
+
 .proposito-home {
 	background-color: #F9F9F9;
 	width: 100%;
@@ -223,11 +229,9 @@ textarea {
 	flex-direction: row;
 	justify-content: center;
 }
-.img-pro {
-	margin-top: 5%;
-}
+
 .pro-text {
-	margin:9% 0% 0% 5%;
+	margin: 0% 0% 0% 5%;
 }
 .nuestro-home {
 	display: flex;;
@@ -260,11 +264,12 @@ textarea {
 .galeria {
 	text-align: center;
 	width: 100%;
-	margin: 0% 5% 5% 5%;
+	margin: 7% 0% 3%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
+
 .galeria p {
 	width: 600px;;
 	height: 10%;
@@ -272,8 +277,13 @@ textarea {
 	font-size: 16px;
 }
 .galeria-img {
-	width: 70%;
+	width: 83%;
 }
+
+.img-individuales {
+	margin: 0.3%;
+}
+
 .nuestro-blog {
 	background-color: #F9F9F9;
 	height: 380px;
@@ -304,6 +314,12 @@ textarea {
 	margin: 0% 0% 20% 6%;
 	color: #67BC8C;
 }
+
+.nota-blog {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 .boton-blog {
 	background-color: #67BC8C;
 	color: #FFF;
@@ -326,19 +342,13 @@ textarea {
 	color: #000;
 	border: none;
 }
-.flecha3 {
-	margin: -13% 0% 0% 11%;
-	align-self: flex-start;
-}
-.flecha4 {
-	margin: -1.5% 0% 0% 6%;
-	align-self: center;
-}
+
 .bloque-blog {
-	margin: -9.5% 0% 0% 35%;
-	width: 280px;
+	margin: 0% 0% 0% 7%;
+	width: 20%;
 	align-self: center;
 }
+
 .bloque-blog h2{
 	font-size: 52px;
 	line-height: 55px;
@@ -467,6 +477,7 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	align-items: baseline;
+	margin-bottom: 7%;
 }
 .color-fondo-contacto {
 	background-color: #F9F9F9;
@@ -504,7 +515,7 @@ textarea {
 	align-items: center;
 }
 
-.detalles-formulario{
+.detalles-formulario-contacto{
 	background-color: #FFFFFF;
 	padding: 30px;
 	margin-right: 10%;
@@ -513,8 +524,12 @@ textarea {
 	flex-shrink: 0;
 }
 
+.medida-formulario-contacto {
+	width: 616.264px;
+	height: 478.861px;
+}
 .asunto-formulario {
-	width: 92%;
+	width: 91.4%;
 	border: 1px solid;
 	color: #636265;
 }
@@ -572,13 +587,7 @@ textarea {
 	margin: 40px 25%;
 }
 
-.color-contendor-version-uno-nosotros {
-	background-color: #F9F9F9;
-	padding: 50px 0px;
-	box-sizing: border-box;
-}
-
-.contenedor-version-uno-nosotros {
+.contenedor-version-uno {
 	margin: 0px 0px;
 	padding: 30px 0px;
 	display: flex;
@@ -710,11 +719,24 @@ textarea {
 	padding: 80px 0px;
 }
 
+.medida-formulario-servicios {
+	width: 616.264px;
+	height: 478.861px;
+}
+
 .texto-formulario-servicios {
 	margin: 0% 5% 0% 10%;
 	width: 450%;
 }
 
+.detalles-formulario-servicio {
+	background-color: #FFFFFF;
+	padding: 30px 30px 100px;
+	margin-right: 10%;
+	width: 34%;
+	height: 430px;
+	flex-shrink: 0;
+}
 @media screen and (max-width: 600px) {
 	h2 {
 		text-align: center;
