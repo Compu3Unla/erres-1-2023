@@ -369,25 +369,16 @@ textarea {
 	background-color: #383838;
 	color: #fff;
 }
-.compot {
-	margin: 10% 0% 10% 25%;
-	display: flex;
-	flex-direction: column;
-	
-}
-.compot h2 {
+
+.prepara-tu-compots {
 	width: 425px;
 	font-size: 52px;
 }
-.compot p {
-	margin: 2% 0%;
+.como-preparar-tu-compots {
 	width: 420px;
 	font-size: 18px;
 }
-.compot a {
-	margin: -20% 15% 0% 0%;
-	align-self: flex-end;
-}
+
 .productos{
 	background-color: #F9F9F9;
 	text-align: center;
@@ -900,12 +891,33 @@ textarea {
 		flex-direction: column;
 	}
 	
-	.detalles-formulario-contacto {
-		
+	.contenedor-formulario-servicios {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
+	
+	.detalles-formulario-servicio {
+		padding: 30px 13px 30px;
+		margin: 10% 10% 3%;
+		width: 85%;
+		height: 600px;
+		flex-shrink: 0;
+	}
+	
 	.img-circulo {
 		width: 95%;
 		height: 95%;
 		margin-bottom: 10px;
+	}
+	
+	.medida-formulario-servicios {
+		width: 105%;
+	}
+	.texto-formulario-servicios {
+		margin: 0% 8%;
+		width: 85%;
+		padding-bottom: 2%;
+		font-size: 20px;
 	}
 }
