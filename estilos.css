@@ -48,6 +48,7 @@ h2 {
 	line-height: 45px;
 }
 
+
 h5 {
 	font-size: 20px;
 }
@@ -116,7 +117,6 @@ textarea {
 .rectangulo-superior-footer{
 	background-color: #D9D9D9;
 	height: 155px;
-	margin-top: 10%;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
@@ -544,7 +544,7 @@ textarea {
 .banner-nosotros {
 	background-position: bottom center;
 	background-blend-mode: multiply;
-	background-image: url("img/Desktop/Nosotros/nosotros-2.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	background-image: url("img/desktop/nosotros/nosotros-2.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	margin-top: 67px;
 	height: 300px;
 	background-size: cover;
@@ -595,7 +595,7 @@ textarea {
 }
 
 .img-dobles-nosotros {
-	margin-right: 2%;
+	margin-right: 4%;
 }
 
 .texto-version-uno-nosotros {
@@ -603,7 +603,7 @@ textarea {
 }
 
 .texto-version-dos-nosotros {
-	margin-right: 2%;
+	margin-right: 4%;
 	width: 38%;
 }
 
@@ -675,6 +675,44 @@ textarea {
 .texto-version-cuatro-nosotros {
 	text-align: center;
 	margin: 2% 18%;
+}
+
+/* html servicios*/ 
+
+.banner-servicios {
+	background-image: url("img/desktop/servicios/banner-servicios.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
+	background-blend-mode: multiply;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 300px;
+	margin: 67px 0px;
+}
+
+.texto-resaltado-servicios {
+	font-size: 25px;
+	font-weight: 800;
+	line-height: 35px;
+	width: 40%;
+	margin-left: 1%;
+}
+
+.color-contendor-version-tres {
+	background-color: #E8EAE6;
+	padding: 80px 0px;
+	box-sizing: border-box;
+}
+
+.contenedor-formulario-servicios {
+	background-color: #F9F9F9;
+	display: flex;
+	align-items: center;
+	padding: 80px 0px;
+}
+
+.texto-formulario-servicios {
+	margin: 0% 5% 0% 10%;
+	width: 450%;
 }
 
 @media screen and (max-width: 600px) {
