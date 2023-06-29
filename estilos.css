@@ -62,8 +62,7 @@ input {
 	background-color: #FFFFFF;
 	width: 42%;
 	height: 44px;
-	margin-bottom: 2%;
-	margin-right: 4%;
+	margin: 0% 4% 2% 0%;
 	color: #636265;
 	padding-left: 2%;
 	font-size: 16px;
@@ -512,14 +511,13 @@ textarea {
 	background-color: #FFFFFF;
 	padding: 30px;
 	margin-right: 10%;
-	width: 34%;
+	width: 30%;
 	height: 430px;
 	flex-shrink: 0;
 }
 
 .medida-formulario-contacto {
-	width: 616.264px;
-	height: 478.861px;
+	width: 50%;
 }
 .asunto-formulario {
 	width: 91.4%;
@@ -705,6 +703,18 @@ textarea {
 	box-sizing: border-box;
 }
 
+.contenedor-circulo-servicio {
+	margin: 0px 0px;
+	padding: 30px 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-circulo {
+	margin-right: 4%;
+}
+
 .contenedor-formulario-servicios {
 	background-color: #F9F9F9;
 	display: flex;
@@ -713,8 +723,7 @@ textarea {
 }
 
 .medida-formulario-servicios {
-	width: 616.264px;
-	height: 478.861px;
+	width: 105%;
 }
 
 .texto-formulario-servicios {
@@ -745,7 +754,7 @@ textarea {
 		width: 83%;
 		margin: 0% 8%;	
 	}
-	.contenedor-version-uno-nosotros {
+	.contenedor-version-uno {
 		display: flex;
 		flex-direction: column-reverse;
 	}
@@ -836,4 +845,19 @@ textarea {
 		
 	
 	/*Responsive servicio*/
+	
+	.texto-resaltado-servicios {
+		width: 90%;
+	}
+	
+	.contenedor-circulo-servicio {
+		display: flex;
+		flex-direction: column;
+	}
+	
+	.img-circulo {
+		width: 95%;
+		height: 95%;
+		margin-bottom: 10px;
+	}
 }
