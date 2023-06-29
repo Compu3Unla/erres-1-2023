@@ -106,6 +106,15 @@ textarea {
 	order: 0;
 	flex-grow: 0;
 }
+
+#check {
+	display: none;
+}
+
+.bar-btn {
+	display: none;
+}
+
 .botones-linkeados {
 	text-decoration: none;
 }
@@ -730,6 +739,7 @@ textarea {
 	height: 430px;
 	flex-shrink: 0;
 }
+<<<<<<< HEAD
 
 /*HTML Mi cuenta*/
 
@@ -783,12 +793,52 @@ textarea {
 	
 }
 	@media screen and (max-width: 600px) {
+=======
+@media screen and (max-width: 600px) {
+	
+	.detalles-header {
+		
+	}
+	
+	.bar-btn {
+		display: flex;
+		color: #3AD184;
+		cursor: pointer;
+	}
+>>>>>>> origin/main
 
-		input { 
+	
+	.navegador-botonera li {
+		display: none;
+	}
+	
+	#check {
+		display: none;
+	}
+	
+	
+	input { 
 		width: 91.4%;
 		height: 44px;
 		margin: 0% 4% 2% 0%;
 	}
+	
+	/*HTML Mi cuenta*/
+	.formulario-cuenta {
+		display: flex;
+		flex-direction: column;
+		width: 65%;
+}
+
+	.boton-acceder {
+		background-color: #67BC8C;
+		color: #FFF;
+		font-weight: 600;
+		text-align: center;
+		font-size: 20px;
+		width: 44.5%;
+	}
+	
 	/* Responsive Nosotros*/
 	
 	h2 {
