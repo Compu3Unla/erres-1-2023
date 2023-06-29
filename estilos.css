@@ -741,6 +741,11 @@ textarea {
 }
 @media screen and (max-width: 600px) {
 
+		input { 
+		width: 91.4%;
+		height: 44px;
+		margin: 0% 4% 2% 0%;
+	}
 	/* Responsive Nosotros*/
 	
 	h2 {
@@ -842,12 +847,6 @@ textarea {
 	}
 	
 	/*Responsive contacto*/
-	
-	input { 
-		width: 91.4%;
-		height: 44px;
-		margin: 0% 4% 2% 0%;
-	}
 	
 	.texto-contacto {
 		margin: 0% 8%;
