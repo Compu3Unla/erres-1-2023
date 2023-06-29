@@ -106,6 +106,15 @@ textarea {
 	order: 0;
 	flex-grow: 0;
 }
+
+#check {
+	display: none;
+}
+
+.bar-btn {
+	display: none;
+}
+
 .botones-linkeados {
 	text-decoration: none;
 }
@@ -731,8 +740,27 @@ textarea {
 	flex-shrink: 0;
 }
 @media screen and (max-width: 600px) {
+	
+	.detalles-header {
+		
+	}
+	
+	.bar-btn {
+		display: flex;
+		color: #3AD184;
+		cursor: pointer;
+	}
 
-		input { 
+	.navegador-botonera li {
+		display: none;
+	}
+	
+	#check {
+		display: none;
+	}
+	
+	
+	input { 
 		width: 91.4%;
 		height: 44px;
 		margin: 0% 4% 2% 0%;
