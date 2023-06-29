@@ -168,7 +168,7 @@ textarea {
 
 .arriba {
 	margin-top: -400px;
-	margin-bottom: 250px;
+	margin-bottom: 350px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -192,7 +192,7 @@ textarea {
 }
 
 .flecha1 {
-	margin: -38% 0% 0px 5%;
+	margin: -34% 0% 0px 5%;
 }
 
 .flecha2 {
@@ -272,11 +272,10 @@ textarea {
 	font-size: 16px;
 }
 .galeria-img {
-	width: 80%;
+	width: 70%;
 }
 .nuestro-blog {
 	background-color: #F9F9F9;
-	width: 100%;
 	height: 380px;
 	padding: 80px 100px;
 	display: flex;
@@ -285,6 +284,7 @@ textarea {
 .nuestro-blog article {
 	width: 800px;
 	height: 400px;
+	margin-left: 10%;
 	background-color: #fff;
 	background-image: url("img/Desktop/Home/dia-mundial-del-reciclaje.png"), linear-gradient(180deg,rgba(1,0,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	display: flex;
@@ -296,68 +296,87 @@ textarea {
 }
 .detalles-mundial h3 {
 	margin: 10% 0% 8%;
-	font-size: 30px;
-	width: 70%;
-	line-height: 30px; 
+	font-size: 40px;
+	width: 400px;
+	line-height: 40px; 
 }
 .detalles-mundial p {
 	margin: 0% 0% 20% 6%;
 	color: #67BC8C;
 }
-.nuestro-blog a {
+.boton-blog {
 	background-color: #67BC8C;
 	color: #FFF;
 	font-weight: 600;
 	text-align: center;
 	font-size: 18px;
-}
-.boton-blog {
 	padding: 4px 6px;
 }
 .boton-blog:hover {
 	background-color: #383838;
 	color: #fff;
 }
-
+.boton-leermas {
+	padding: 10px 30px;
+	font-size: 20px;
+	border: 1px solid;
+}
+.boton-leermas:hover {
+	background-color: #F9F9F9;
+	color: #000;
+	border: none;
+}
+.flecha3 {
+	margin: -13% 0% 0% 11%;
+	align-self: flex-start;
+}
+.flecha4 {
+	margin: -1.5% 0% 0% 6%;
+	align-self: center;
+}
+.bloque-blog {
+	margin: -9.5% 0% 0% 35%;
+	width: 280px;
+	align-self: center;
+}
+.bloque-blog h2{
+	font-size: 52px;
+	line-height: 55px;
+}
+.bloque-blog p {
+	margin: 6% 0%;
+	font-size: 20px;
+	line-height: 28px;
+}
 .boton-visitar {
+	background-color: #67BC8C;
+	color: #FFF;
+	font-weight: 600;
+	text-align: center;
+	font-size: 18px;
 	padding: 5px 50px;
 }
 .boton-visitar:hover {
 	background-color: #383838;
 	color: #fff;
 }
-.flecha3 {
-	margin: -15% 0% 0% 0.5%;
-	align-self: flex-start;
-}
-.flecha4 {
-	margin: -2.5% 0% 0% 15%;
-	align-self: center;
-}
-.bloque-blog {
-	margin: -14% 0% 0% 45%;
-	width: 200px;
-	align-self: center;
-}
-.bloque-blog p {
-	margin: 20% 0%;
-}
 .compot {
-	margin: 10%;
+	margin: 10% 0% 10% 25%;
 	display: flex;
 	flex-direction: column;
 	
 }
 .compot h2 {
-	width: 500px;
-	font-size: 42px;
+	width: 425px;
+	font-size: 52px;
 }
 .compot p {
 	margin: 2% 0%;
-	width: 350px;
+	width: 420px;
+	font-size: 18px;
 }
 .compot a {
-	margin-top: -30%;
+	margin: -20% 15% 0% 0%;
 	align-self: flex-end;
 }
 .productos{
