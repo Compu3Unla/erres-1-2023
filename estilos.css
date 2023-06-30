@@ -899,6 +899,7 @@ textarea {
 	
 	/*HTML Mi cuenta*/
 	.formulario-cuenta {
+		
 		display: flex;
 		flex-direction: column;
 		width: 65%;
