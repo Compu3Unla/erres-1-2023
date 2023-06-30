@@ -179,6 +179,7 @@ textarea {
 .banner-home {
 	background-color: #FFFFFF;
 	background-size: cover;
+	margin-top: 3.6%;
 }
 
 .img-carrusel-1 {
@@ -899,6 +900,7 @@ textarea {
 	
 	/*HTML Mi cuenta*/
 	.formulario-cuenta {
+		
 		display: flex;
 		flex-direction: column;
 		width: 65%;
