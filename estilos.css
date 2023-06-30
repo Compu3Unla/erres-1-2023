@@ -179,18 +179,17 @@ textarea {
 }
 
 .arriba {
-	margin-top: -400px;
-	margin-bottom: 350px;
+	margin: -27% 0% 30%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 .arriba h1{
 	display: flex;
-	width: 550px;
 	flex-direction: column;
 	color: #FFF;
 	text-align: center;
+	font-size: 62px;
 }
 .arriba p {
 	display: flex;
@@ -203,14 +202,16 @@ textarea {
 	font-weight: 700;
 }
 
-.flecha1 {
-	margin: -34% 0% 0px 5%;
+.flechas-banner-home {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: -42% 0% 27%;
 }
 
-.flecha2 {
-	margin: -3% 5% 0% 0%;
-	display: flex;
-	justify-content: flex-end;
+.flecha1 {
+	margin-right: 89%;
 }
 
 .iconos {
@@ -327,6 +328,7 @@ textarea {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+	background-color: #fff;
 }
 .boton-blog {
 	background-color: #67BC8C;
@@ -352,7 +354,7 @@ textarea {
 }
 
 .bloque-blog {
-	margin: 0% 0% 0% 7%;
+	margin: 0% 0% 0% 5%;
 	width: 20%;
 	align-self: center;
 }
@@ -360,11 +362,13 @@ textarea {
 .bloque-blog h2{
 	font-size: 52px;
 	line-height: 55px;
+	width: 0%;
 }
 .bloque-blog p {
-	margin: 6% 0%;
-	font-size: 20px;
-	line-height: 28px;
+	margin: 5% 0%;
+	font-size: 22px;
+	line-height: 30px;
+	width: 81%;
 }
 .boton-visitar {
 	background-color: #67BC8C;
@@ -378,14 +382,24 @@ textarea {
 	background-color: #383838;
 	color: #fff;
 }
+.compots-general {
+	margin: 5% 0%;
+}
+
+.compots-preparado {
+	margin-right: 3%;
+}
 
 .prepara-tu-compots {
-	width: 425px;
+	width: 98%;
 	font-size: 52px;
+	line-height: 100%;
 }
 .como-preparar-tu-compots {
-	width: 420px;
-	font-size: 18px;
+	margin-top: 10%;
+	width: 490px;
+	font-size: 21px;
+	line-height: 150%;
 }
 
 .productos{
@@ -400,58 +414,86 @@ textarea {
 }
 .boton-tienda {
 	background-color: #67BC8C;
-	width: 300px;
 	padding: 1% 5%;
-	margin: 0% 25% 0% 25%;
 	color: #FFF;
 	font-weight: 600;
 	font-size: 18px;
 }
+
+.boton-tienda:hover {
+	background-color: #383838;
+	color: #fff;
+}
+
+.intro-produ {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
 .intro-produ p {
 	width: 600px;
-	margin: 5% 0%;
+	margin: 1% 0%;
 }
 .img-productos {
-	width: 600px;;
-	height: 10%;
-	margin: 5% 0;
-	font-size: 16px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 5% 0%;
 }
-.produ1 {
-	width: 800px;
-	height: 340px;
-	margin-right: 5%;
+
+.img-individuales-productos {
+	margin-left: 2%;
 	background-color: #fff;
+	padding-bottom: 2%;
 }
-.produ2 {
-	width: 800px;
-	height: 340px;
-	margin-right: 5%;
-	background-color: #fff;
-}
-.produ3 {
-	width: 800px;
-	height: 340px;
-	margin-right: 5%;
-	background-color: #fff;
-}
-.produ4 {
-	width: 800px;
-	height: 340px;
-	background-color: #fff;
-}
+
 .ofertas p {
 	background-color: #67BC8C;
 	color: #FFF;
 	font-weight: 600;
-	text-align: center;
 	font-size: 18px;
 }
 
+.contenedor-erres {
+	display: flex;
+	flex-direction: row;
+	margin: 5% 0% 5% 10%;
+}
 
+.erres-detalles-home {
+	display: flex;
+	flex-direction: row;
+	margin: 5% 0% 5% 10%;
+}
+
+.img-erres {
+	padding-bottom: 5%;
+}
+
+.contenedor-erres h2 {
+	margin-bottom: 3%;
+}
+
+.contenedor-erres {
+	display: flex;
+	flex-direction: column;
+	margin: 0% 0% 0% 2%;
+}
+
+.todas-las-erres {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.texerres {
+	margin-top: 0.5%;
+}
 /* html contacto*/ 
 
 .banner-contacto {
