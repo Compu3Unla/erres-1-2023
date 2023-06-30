@@ -168,7 +168,7 @@ textarea {
 /*html index*/
 
 .contenedor-carrusel {
-	height: 1180px;
+	height: 850px;
 	overflow: hidden;
 }
 
@@ -223,7 +223,7 @@ textarea {
 }
 
 .iconos {
-	margin: 20% 13% 0% 13%;
+	margin: 6% 13% 0% 13%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
@@ -235,6 +235,17 @@ textarea {
 
 .sub-iconos {
 	padding: 0% 5% 5% 4%;
+}
+
+.img-iconos {
+	margin: auto;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.img-iconos:hover {
+	transform: scale(1.1);
+	transition: 1s;
 }
 
 .proposito-home {
@@ -295,10 +306,19 @@ textarea {
 }
 .galeria-img {
 	width: 83%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .img-individuales {
 	margin: 0.3%;
+	cursor: pointer;
+}
+.img-individuales:hover {
+	background: rgba(0,0,0);
+	opacity: 0;
+	transition: .5s;
 }
 
 .nuestro-blog {
@@ -357,7 +377,6 @@ textarea {
 }
 .boton-leermas:hover {
 	background-color: #F9F9F9;
-	color: #;
 	border: none;
 }
 
