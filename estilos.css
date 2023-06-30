@@ -167,10 +167,16 @@ textarea {
 }
 /*html index*/
 
+.contenedor-carrusel {
+	height: 1180px;
+	overflow: hidden;
+}
+
+.carrusel {
+	height: 100%;
+}
+
 .banner-home {
-	background-position: center;
-	background-blend-mode: multiply;
-	background-image: url("img/desktop/home/como-reciclar-casa-sostenibilidad-reciclaje-1bbva.jpg"),linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important;
 	margin-top:67px;
 	height: 724px; 
 	background-repeat: no-repeat;
