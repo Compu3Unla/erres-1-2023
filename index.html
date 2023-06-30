@@ -44,37 +44,68 @@
 		</nav>
 	</header>
 	<main>
-		<div class= "banner-home"> </div>
-		<div class= "arriba">
-			<h1>¡Lo que haces importa!</h1>
-			<p>Es tiempo de tomar conciencia. Ayudarnos a reducir el impacto, para lograr un mundo más sustentable.</p>
-		</div>
-		<div class="flechas-banner-home">
-			<div class= "flecha1">
-				<img src="img/svg/iconos/flecha-blanca-izq.svg" alt="flecha izq"/>
+		<div class="contenedor-carrusel">
+			<div class="carrusel" id="carrusel-1">
+				<div class= "banner-home">
+					<img src="img/desktop/home/como-reciclar-casa-sostenibilidad-reciclaje-1bbva.jpg" width="1920" height="1180" alt=""/>
+				</div>
+				<div class= "arriba">
+					<h1>¡Lo que haces importa!</h1>
+					<p>Es tiempo de tomar conciencia. Ayudarnos a reducir el impacto, para lograr un mundo más sustentable.</p>
+				</div>
+				<div class="flechas-banner-home">
+					<div class= "flecha1">
+						<a href="#carrusel-2">
+							<img src="img/svg/iconos/flecha-blanca-izq.svg" alt="flecha izq"/>
+						</a>
+					</div>
+					<div class= "flecha2">
+						<a href="#carrusel-2">
+							<img src="img/svg/iconos/flecha-blanca-der.svg" alt="flecha der"/>
+						</a>
+					</div>
+				</div>
 			</div>
-			<div class= "flecha2">
-				<img src="img/svg/iconos/flecha-blanca-der.svg" alt="flecha der"/>
+			<div class="carrusel" id="carrusel-2">
+				<div class= "banner-home"> 
+					<img linear-gradient(180deg,rgba(10,2,2,0.02) 0%,rgba(15,0,0,0.66) 100%)!important; src="img/desktop/home/contenedores_colores-reciclar-basura-residuos.jpg" width="1920" height="1180" alt=""/>
+				</div>
+				<div class= "arriba">
+					<h1>¡Lo que haces importa!</h1>
+					<p>Es tiempo de tomar conciencia. Ayudarnos a reducir el impacto, para lograr un mundo más sustentable.</p>
+				</div>
+				<div class="flechas-banner-home">
+					<div class= "flecha1">
+						<a href="#carrusel-1">
+							<img src="img/svg/iconos/flecha-blanca-izq.svg" alt="flecha izq"/>
+						</a>
+					</div>
+					<div class= "flecha2">
+						<a href="#carrusel-1">
+							<img src="img/svg/iconos/flecha-blanca-der.svg" alt="flecha der"/>
+						</a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<section class="iconos">
 			<div class="sub-iconos">
-				<img src="img/svg/economía-circular.svg" alt="icono"/>
+					<img src="img/svg/economía-circular.svg" alt="icono" class="img-iconos"/>
 				<h5>Economía circular</h5>
 				<p> Los residuos se utilizan como materia prima para crear nuevo productos</p>
 			</div>
 			<div class="sub-iconos">
-				<img src="img/svg/consumo-responsable.svg" alt="icono consumo"/>
+				<img src="img/svg/consumo-responsable.svg" alt="icono consumo" class="img-iconos"/>
 				<h5> Consumo Responsable</h5>
 				<p> Como consumidores tenemos el poder de elegir productos sustentables</p>
 			</div>
 			<div class="sub-iconos"> 
-				<img src="img/svg/consciencia-ambiental.svg" alt=""/>
+				<img src="img/svg/consciencia-ambiental.svg" alt="" class="img-iconos"/>
 				<h5> conciencia ambiental</h5>
 				<p>Cada uno es responsable de los residuos que genera y de reducir su impacto</p>
 			</div>
 			<div class="sub-iconos">
-				<img src="img/svg/soluciones-sustentables2.svg" alt=""/>
+				<img src="img/svg/soluciones-sustentables2.svg" alt="" class="img-iconos"/>
 				<h5>Soluciones Sustentables</h5>
 				<p>Creamos soluciones amigables con el medioambiente</p>
 			</div>
@@ -120,15 +151,6 @@
 					<p> Mariana Balcone</p>
 					<a class="boton-leermas">Leer más...</a>
 					</div>
-<!-- 					Flechas que todavía no utilizamos
-						<div class="flechas-blog">
-						<div>
-							<img src="img/svg/iconos/flecha-izq-negra.svg" alt=""/>
-						</div>
-						<div>
-							<img src="img/svg/iconos/flecha-der-negra-.svg" alt=""/>
-						</div>
-					</div> -->
 				</div>
 				<div class="bloque-blog">
 				<h2> Nuestro Blog</h2>
@@ -141,7 +163,7 @@
 			<div class="contenedor-version-uno">
 				<div class="compots-preparado">
 					<h2 class="prepara-tu-compots">Prepará tu propio compost!</h2>
-					<p class="como-preparar-tu-compots">Nuestras amigas de @vivimasverde nos enseñan a preparar un buen compost. Esperamos que les sirva y cualquier duda que puedan llegar a tener, nos contacten a través de la sección de “Contacto” o desde nuestras redes sociales.</p>
+					<p class="como-preparar-tu-compots">Nuestras amigas de <b>@vivimasverde</b> nos enseñan a preparar un buen compost. Esperamos que les sirva y cualquier duda que puedan llegar a tener, nos contacten a través de la sección de “Contacto” o desde nuestras redes sociales.</p>
 				</div>
 				<a>
 					<img src="img/desktop/home/link-youtube.png" width="639" height="358" alt=""/>
@@ -168,7 +190,7 @@
 					<p><s>$1.210,00</s> <strong>$1.180,00</strong></p>
 				</div>
 				<div class="img-individuales-productos">
-					<img src="img/desktop/home/separadores-20x25-cm.png" width="250" height="250" alt=""/>
+					<img src="img/desktop/home/separadores-20x25-cm.png" width="250px" height="250px" alt=""/>
 					<p><strong>Separadores 20x25 cm</strong></p>
 					<p>(Pack de 50 uds.)</p>
 					<p><s>$2.500,00</s> <strong>$2.000,00</strong></p>
