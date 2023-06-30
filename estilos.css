@@ -229,6 +229,9 @@ textarea {
 	padding: 0% 5% 5% 4%;
 }
 
+.img-iconos {
+
+}
 .proposito-home {
 	background-color: #F9F9F9;
 	width: 100%;
@@ -291,6 +294,12 @@ textarea {
 
 .img-individuales {
 	margin: 0.3%;
+	cursor: pointer;
+}
+.img-individuales:hover {
+	background: rgba(0,0,0,.4);
+	opacity: 0;
+	transition: .5s;
 }
 
 .nuestro-blog {
