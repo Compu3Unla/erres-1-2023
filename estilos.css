@@ -499,11 +499,9 @@ textarea {
 	padding-bottom: 2%;
 }
 
-.ofertas p {
-	background-color: #67BC8C;
-	color: #FFF;
-	font-weight: 600;
-	font-size: 18px;
+.text-productos {
+	font-size: 20px;
+	line-height: 28px;
 }
 
 .contenedor-erres {
@@ -538,8 +536,13 @@ textarea {
 	align-items: center;
 }
 
+.todas-las-erres p {
+	font-size: 18px;
+}
+
 .texerres {
-	margin-top: 0.5%;
+	margin-top: 1.5%;
+	font-size: 18px;
 }
 /* html contacto*/ 
 
